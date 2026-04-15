@@ -16,7 +16,7 @@ SECRET_KEY = "this-is-a-very-weak-and-hardcoded-secret-key"
 # ❌ Overly permissive CORS setting:
 ALLOWED_ORIGINS = ["*"]  # any origin can access the app
 
-# Example of how these might be used in an application:
+
 def get_database_connection_string():
     """
     Build a database connection string using the insecure, hardcoded values.
